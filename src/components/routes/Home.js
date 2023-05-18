@@ -3,6 +3,7 @@ import Hero from '../Hero/Hero';
 import Navbar from '../Navbar/Navbar';
 import Destination from '../Destination/Destination';
 import Trip from '../Trip/Trip';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             </Hero>
             <Destination></Destination>
             <Trip></Trip>
+            <Footer></Footer>
         </div>
     );
 };
